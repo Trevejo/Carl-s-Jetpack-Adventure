@@ -1,0 +1,10 @@
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\bin\Debug\Carl's Jetpack Adventure.exe.config
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\bin\Debug\Carl's Jetpack Adventure.exe
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\bin\Debug\Carl's Jetpack Adventure.pdb
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\obj\Debug\Carl's Jetpack Adventure.csproj.AssemblyReference.cache
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\obj\Debug\Carl_s_Jetpack_Adventure.Form1.resources
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\obj\Debug\Carl_s_Jetpack_Adventure.Properties.Resources.resources
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\obj\Debug\Carl's Jetpack Adventure.csproj.GenerateResource.cache
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\obj\Debug\Carl's Jetpack Adventure.csproj.CoreCompileInputs.cache
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\obj\Debug\Carl's Jetpack Adventure.exe
+C:\Users\muril\Desktop\Carl's Jetpack Adventure\Carl's Jetpack Adventure\obj\Debug\Carl's Jetpack Adventure.pdb
