@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A9AE5FF1-CA94-4A3A-8CBA-E545E7317D33}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Carl_s_Jetpack_Adventure</RootNamespace>
+    <AssemblyName>Carl%27s Jetpack Adventure</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DeathScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeathScreen.Designer.cs">
+      <DependentUpon>DeathScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop.Designer.cs">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DeathScreen.resx">
+      <DependentUpon>DeathScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop.resx">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idle_frame.png" />
+    <None Include="Resources\flying_frame.png" />
+    <None Include="Resources\run1.png" />
+    <None Include="Resources\run2.png" />
+    <None Include="Resources\run3.png" />
+    <None Include="Resources\run4.png" />
+    <None Include="Resources\run5.png" />
+    <None Include="Resources\run6.png" />
+    <None Include="Resources\run7.png" />
+    <None Include="Resources\run8.png" />
+    <None Include="Resources\run9.png" />
+    <None Include="Resources\run10.png" />
+    <None Include="Resources\run11.png" />
+    <None Include="Resources\run12.png" />
+    <None Include="Resources\run13.png" />
+    <None Include="Resources\run14.png" />
+    <None Include="Resources\run15.png" />
+    <None Include="Resources\moeda1.png" />
+    <None Include="Resources\moeda2.png" />
+    <None Include="Resources\moeda3.png" />
+    <None Include="Resources\moeda4.png" />
+    <None Include="Resources\moeda5.png" />
+    <None Include="Resources\moeda6.png" />
+    <None Include="Resources\background.png" />
+    <None Include="Resources\RedDead.png" />
+    <None Include="Resources\RedFlying.png" />
+    <None Include="Resources\RedIdle.png" />
+    <None Include="Resources\red0.png" />
+    <None Include="Resources\red1.png" />
+    <None Include="Resources\red2.png" />
+    <None Include="Resources\red3.png" />
+    <None Include="Resources\red4.png" />
+    <None Include="Resources\red5.png" />
+    <None Include="Resources\red6.png" />
+    <None Include="Resources\red7.png" />
+    <None Include="Resources\red8.png" />
+    <None Include="Resources\red9.png" />
+    <None Include="Resources\red10.png" />
+    <None Include="Resources\red11.png" />
+    <None Include="Resources\red12.png" />
+    <None Include="Resources\red13.png" />
+    <None Include="Resources\red14.png" />
+    <None Include="Resources\dying5.png" />
+    <None Include="Resources\HZapper2.png" />
+    <None Include="Resources\HZapper3.png" />
+    <None Include="Resources\HZapper4.png" />
+    <Content Include="Resources\Zapper1.png" />
+    <None Include="Resources\Zapper4.png" />
+    <None Include="Resources\Zapper3.png" />
+    <None Include="Resources\Zapper2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
